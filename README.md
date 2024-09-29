@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Introdução ao React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado com o [Create React App](https://github.com/facebook/create-react-app).\
+É um projeto de calculadora com o React
 
-## Available Scripts
-
-In the project directory, you can run:
+## Scripts disponíveis
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa o aplicativo no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A página será recarregada quando você fizer alterações.\
+Você também pode ver lint errors no console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executor de teste no modo de inspeção interativo..\
+Consulte a seção sobre [running tests](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cria o aplicativo `build` para produção na pasta.\
+Ele agrupa corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A compilação é reduzida e os nomes dos arquivos incluem os hashes.\
+Seu aplicativo está pronto para ser implantado!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: esta é uma operação unidirecional. Depois de `eject`, você não pode voltar!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá fazê-lo\
+a qualquer momento. Esse comando removerá a dependência de build único do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel,\
+ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos,\
+exceto os que ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los.\
+Neste ponto, você está sozinho.eject
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Você não precisa usar . O conjunto de recursos selecionados é adequado para implantações pequenas e intermediárias,\
+e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil\
+se você não pudesse personalizá-la quando estiver pronto para ela.
 
-## Learn More
+## Tecnologias Utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React**: Para estruturar o conteúdo da página.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Como Executar Localmente
 
-### Code Splitting
+1. Clone este repositório para sua máquina local usando:
+```git clone https://github.com/name-project.git```
+```cd name-project```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Navegue até o diretório do projeto:
+```cd name-project```
+Abra o arquivo index.html em seu navegador.
 
-### Analyzing the Bundle Size
+## Subir um novo repositório para o GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Tenha certeza que o seu git está instalado. No terminal ou prompt de comando cheque através do comando ``` git -v ```
 
-### Making a Progressive Web App
+2. No GitHub, crie um novo repositório. Na tela onde pede para fazer upload ou criar aquivos, guarde o link HTTPS que será gerado.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Abra o Git Bash ou terminal na pasta onde está o seu projeto.
 
-### Advanced Configuration
+4. Inicie a pasta como um repositório do Git através do comando: ``` git init ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5. Em seguida, adicione os arquivos de configuração para preparar o commit: ``` git add . ```
 
-### Deployment
+6. Crie um novo commit para os arquivos que irá subir para o repositório: ``` git commit -m "first commit" ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+7. Suba seus arquivos utilizando a URL gerada no passo 2 no seguinte comando: ``` git remote add origin URL-GERADA-PELO-PASSO-2-AQUI ```
 
-### `npm run build` fails to minify
+8. Autorize o upload com seu login e senha: ``` git push -u origin master ```.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Atualizar um repositório existente
+
+1. Adicione os arquivos de configuração para preparar o commit: ``` git add . ```
+
+2. Crie um novo commit para os arquivos que irá subir para o repositório: ``` git commit -m "first commit" ```
+
+3. Autorize o upload com seu login e senha: ``` git push origin master ```
+
+## Contato
+
+Sinta-se à vontade para entrar em contato comigo:\
+
+E-mail: <fb.venceslau@gmail.com>\
+Instagram: [@fb.venceslau](https://www.instagram.com/fb.venceslau/)\
+LinkedIn: [Fábio Venceslau](https://www.linkedin.com/in/fabio-venceslau/)\
+Feito com ❤️ por Fábio Venceslau
