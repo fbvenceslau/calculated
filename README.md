@@ -47,16 +47,16 @@ se você não pudesse personalizá-la quando estiver pronto para ela.
 ## Tecnologias Utilizadas
 
 - **React**: Para estruturar o conteúdo da página.
+- **Styled Compinents**: permite que você escreva código CSS real para estilizar seus componentes.
 
 ## Como Executar Localmente
 
 1. Clone este repositório para sua máquina local usando:
-```git clone https://github.com/name-project.git```
-```cd name-project```
+```git clone https://github.com/fbvenceslau/calculated.git```
+```cd calculated```
 
 2. Navegue até o diretório do projeto:
-```cd name-project```
-Abra o arquivo index.html em seu navegador.
+```cd calculated```
 
 ## Subir um novo repositório para o GitHub
 
