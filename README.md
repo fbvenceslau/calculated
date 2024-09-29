@@ -53,7 +53,6 @@ se você não pudesse personalizá-la quando estiver pronto para ela.
 
 1. Clone este repositório para sua máquina local usando:
 ```git clone https://github.com/fbvenceslau/calculated.git```
-```cd calculated```
 
 2. Navegue até o diretório do projeto:
 ```cd calculated```
